@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="eng" dir="ltr" > 
+<head> <title> CHALK-ART </title> </head> 
+<body>
+<img src = "logo2.png" alt = "WebsiteLogo" >
+    <a  class="link-node" href="mainht.html" title="Home"><h3>Home</h3></a> 
+	<a class="link-node" href="Art.html" title="Artists"><h3>Artists</h3></a>
+    <div class="search-container">
+     <form action="action_page.php">
+      <input type="text" placeholder="Search..." name="search">
+      <button type="submit">Search</button>
+     </form>
+    </div>
+  
+<form action="action_page.php" method="post">
+  <div class="container">
+    <h3>Sign Up</h3>
+    <p>Please fill in this form to create an account</p>
+    <hr>
+    <label for="uname"><b>Username </b></label>
+    <input type="text" placeholder="Enter Name" name="uname" required> <br>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="youremeail@example.com" name="email" required> <br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required> <br>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required> <br>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+<form action="action_page.php" method="post">
+ <div class="container">
+    <h3>Sign In</h3>
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username Or Email" name="uname" required> <br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required> <br>
+
+    <button type="submit">Login</button> </div>
+    <span class="psw">Forgot <a href="#" style="color:dodgerblue">password?</a></span>
+
+</form>
+
+    <div class="footer_row">
+
+        <div class="col-lg-2  col-md-3 col-xs-6">
+            <div class="footer__link-area">
+                <h4 class="footer__link-area__title">About us</h4>
+
+                <ul class="footer__links">
+                    <p> Hello We Are ARTطبشور Team </p>
+                  
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-xs-6">
+            <div class="footer__link-area">
+                <h4 class="footer__link-area__title">Contact</h4>
+
+                <ul class="footer__links">
+                    <li class="footer__links__nodes">Phone </li>
+					<li class="footer__links__nodes">Email </li>
+			    <li class="footer__links__nodes"><a class="link-node" href="/" title="instagram">instagram</a></li>
+				</ul>
+            </div>
+        </div>
+				
+    </div>
+ </body> 
+ </html>
